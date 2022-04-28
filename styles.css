@@ -9,11 +9,14 @@ body {
 }
 
 #content {
-	background: rgba(0, 0, 55, 0.8);
+	background: rgba(0, 100, 140, 0.8);
 	padding: 15px;
-	margin-left: 7%;
-	margin-right: 7%;
+	margin-left: 14%;
+	margin-right: 14%;
 	height: 100vh;
+	border-left: 24px solid rgba(0, 20, 40, 0.8);
+	border-right: 24px solid rgba(0, 20, 40, 0.8);
+	outline: 16px solid rgba(0, 0, 0, 0.8);
 }
 
 section {
@@ -29,7 +32,8 @@ section {
 
 section p {
 	color: white;
-	padding: 15px;
+	padding: 25px;
+	margin: 0;
 }
 
 #auto-header,
@@ -41,6 +45,11 @@ section,
 #auto-header,
 section {
 	margin-bottom: 55px;
+	font-size: 24px;
+}
+
+#auto-header img {
+	width: 18vw;
 }
 
 .headerwrapper {
@@ -80,11 +89,7 @@ section {
 }
 
 footer {
-	position: fixed;
-	bottom: 0;
-	width: 60%;
 	background-color: white;
-
 	padding: 5px;
 	vertical-align: top;
 	margin-left: 10%;
