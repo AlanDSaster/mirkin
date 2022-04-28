@@ -24,8 +24,13 @@ header .logo {
 	float: left;
 }
 
+
 header .address {
 	float: right;
+}
+
+header nav {
+
 }
 
 header nav ul {
@@ -34,6 +39,10 @@ header nav ul {
 
 header nav ul li {
 	display: inline-block;
+}
+
+header nav ul li {
+	outline: 2px outset #ccc;
 }
 
 section {
