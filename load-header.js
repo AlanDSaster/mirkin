@@ -1,6 +1,6 @@
 (() => {
-	const element = document.getElementById('auto-header');
-	const file = './header.html';
+	const element = document.getElementById('auto-footer');
+	const file = './footer.html';
 	if(file) {
 		xmlRequest = new XMLHttpRequest();
 		xmlRequest.onreadystatechange = function () {
