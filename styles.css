@@ -171,3 +171,16 @@ section li {
 	color: white;
 	padding: 15px;
 }
+
+@media(max-width: 600px) {
+	.content {
+		width: 100%;
+	}
+
+	#auto-header,
+	section,
+	#auto-footer {
+		width: 100%;
+		border-radius: 0;
+	}
+}
