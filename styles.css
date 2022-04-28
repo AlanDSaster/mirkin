@@ -1,0 +1,56 @@
+body {
+	background-image: url('./index-background.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	filter: grayscale();
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: block;
+	background-color: white;
+	position: sticky;
+	top: 0;
+	padding: 5px;
+	vertical-align: top;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+header .logo img {
+	float: left;
+}
+
+header .address {
+	float: right;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+section {
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+section p {
+	color: white;
+	padding: 15px;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
