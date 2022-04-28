@@ -1,5 +1,5 @@
 (() => {
-	const id = document.getElementById('auto-header');
+	const element = document.getElementById('auto-header');
 	const file = './header.html';
 	if(file) {
 		xmlRequest = new XMLHttpRequest();
