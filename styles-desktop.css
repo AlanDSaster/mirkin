@@ -130,6 +130,11 @@
 		display: inline-block;
 		margin: 12px;
 	}
+	
+		
+	footer ul li:hover {
+		filter: hue-rotate(-0.25turn);
+	}
 
 	nav {
 		content: '';
