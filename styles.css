@@ -175,7 +175,9 @@ section li {
 @media(max-width: 600px) {
 	nav,
 	section,
-	.content {
+	.content,
+	#auto-header,
+	#auto-footer {
 		display: block;
 		white-space: normal;
 		overflow: auto;
@@ -183,11 +185,6 @@ section li {
 		margin-right: 1%;
 		width: 100%;
 		border-radius: 0;
-	}
-
-	nav {
-		margin-top: 5px;
-		margin-bottom: 5px;
 	}
 	
 	#auto-header,
