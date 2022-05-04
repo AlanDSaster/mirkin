@@ -129,6 +129,7 @@
 	}
 	
 	footer ul li:hover {
+		outline: 2px inset gold;
 		filter: hue-rotate(-0.25turn);
 	}
 
