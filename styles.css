@@ -56,7 +56,7 @@ section {
 }
 
 #auto-header img {
-	width: 18vw;
+	width: 21vw; /* was 18vw */
 	min-height: 100%;
 	height: 100%;
 }
