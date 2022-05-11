@@ -1,5 +1,6 @@
 @media(min-width: 800px) {
 	body {
+		background-color: white;
 		background-image: url('./index-background.png');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -10,13 +11,17 @@
 	}
 
 	#content {
+		/*
 		background: rgba(0, 100, 140, 0.8);
+		*/
 		padding: 15px;
 		margin-left: 14%;
 		margin-right: 14%;
 		min-height: 100vh;
+		/*
 		border-left: 24px solid rgba(0, 20, 40, 0.8);
 		border-right: 24px solid rgba(0, 20, 40, 0.8);
+		*/
 		outline: 16px solid rgba(0, 0, 0, 0.8);
 
 	}
@@ -130,8 +135,8 @@
 		display: inline-block;
 		margin: 12px;
 	}
-	
-		
+
+
 	footer ul li:hover {
 		outline: 2px inset gold;
 		filter: hue-rotate(-0.25turn);

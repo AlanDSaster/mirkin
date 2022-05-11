@@ -1,29 +1,117 @@
 @media(max-width: 799px) {
+
 	body {
+		background-color: black;
 		background-image: url('./index-background.png');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
-		margin: 0;
-		padding: 0;
+		margin: 0px;
+		padding: 0px;
 	}
 
 	#content {
-		background: rgba(0, 100, 140, 0.8);
+		margin: 0;
+		background: rgba(0, 0, 0, 0.4); /* was background: rgba(0, 100, 140, 0.8); */
 		padding: 15px;
-		min-height: 100vh;
-		border-left: 24px solid rgba(0, 20, 40, 0.8);
-		border-right: 24px solid rgba(0, 20, 40, 0.8);
-		outline: 16px solid rgba(0, 0, 0, 0.8);
+		width: 100vw;
 	}
 
-	section {
+
+
+
+	#auto-header {
 		display: block;
-		margin-left: 3%;
-		margin-right: 3%;
+		text-align: center;
+		margin-bottom: 55px;
+		font-size: 24px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#auto-header img {
+		text-align: center;
+		vertical-align: top;
+		width: 50vw;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.headerwrapper {
+		content: '';
+		clear: both;
+		display: block;
+		background-color: white;
+		vertical-align: top;
+
+		width: 90vw;
+		margin-left: auto;
+		margin-right: auto;
+
+		border-radius: 45px;
+	}
+
+	.headerwrapper .address {
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 3%;
+		padding-bottom: 3%;
+		border-bottom-left-radius: 45px;
+		border-bottom-right-radius: 45px;
+	}
+
+	.headerwrapper .address p,
+	.headerwrapper .address h3 {
+		padding: 0;
+		margin: 0;
+	}
+
+
+
+
+	nav {
+		content: '';
+		clear: both;
+		display: block;
+
+		text-align: center;
+
+		background-color: white;
+		padding: 1px;
+		vertical-align: top;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+
+		margin-left: auto;
+		margin-right: auto;
+		width: 60vw;
+	}
+
+	nav ul li {
+		display: inline-block;
+		font-size: 24px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border: 1px solid #ccc;
+		margin: 0;
+	}
+
+	nav ul li:hover {
+		background-color: #ccc;
+	}
+
+
+
+
+	section {
+		margin: 0;
+		display: block;
 		text-align: justify;
 		text-justify: inter-word;
+		width: 100vw;
+		margin-bottom: 55px;
+		font-size: 24px;
 	}
 
 	section h1,
@@ -32,63 +120,32 @@
 	section h4,
 	section h5,
 	section h6 {
+		font-variant: small-caps;
 		color: white;
+		text-shadow: 4px 4px #000000;
+		text-align: center;
 	}
 
 	section p {
 		color: white;
 		padding: 25px;
-		margin: 0;
 	}
 
-	#auto-header,
-	section,
-	#auto-footer {
-		display: block;
+	section a:any-link {
+		color: white;
 	}
 
-	#auto-header,
-	section {
-		margin-bottom: 55px;
-		font-size: 24px;
+	section a:active {
+		font-style: italic;
 	}
 
-	#auto-header img {
-		text-align: center;
-		vertical-align: top;
-		width: 60vw; /* was 18vw */
-	}
-
-	.headerwrapper {
-		display: block;
-		float: left;
-		background-color: white;
-		width: 80%;
-		border-radius: 15px;
-		border-bottom-left-radius: 0px;
+	section li {
+		color: white;
 		padding: 15px;
-		vertical-align: top;
-		margin-left: 10%;
-		margin-right: 10%;
-		overflow: none;
 	}
 
-	.headerwrapper .logo {
-		display: inline-block;
-		vertical-align: top;
-	}
 
-	.headerwrapper .address {
-		display: inline-block;
-		float: right;
-		vertical-align: top;
-	}
 
-	.headerwrapper .address p,
-	.headerwrapper .address h3 {
-		padding: 0;
-		margin: 0;
-	}
 
 	.clearfix::after {
 		content: '';
@@ -119,63 +176,22 @@
 		text-align: center;
 	}
 
-	footer h3 {
+	footer p {
 		text-align: center;
+		font-weight: bold;
 	}
 
 	footer ul li {
 		display: inline-block;
 		margin: 12px;
 	}
-	
+
 	footer ul li:hover {
 		outline: 2px inset gold;
 		filter: hue-rotate(-0.25turn);
 	}
 
-	nav {
-		content: '';
-		clear: both;
-		display: table;
 
-		background-color: white;
-		padding-right: 35px;
-		vertical-align: top;
-		margin-left: 3%;
-		margin-right: 3%;
-		margin-top: 5px;
-		margin-bottom: 5px;
-		border-bottom-left-radius: 15px;
-		border-bottom-right-radius: 15px;
-		border-top-left-radius: 15px;
-		border-top-right-radius: 15px;
 
-		overflow: none;
-		white-space: nowrap;
-	}
 
-	nav ul li {
-		display: inline-block;
-		font-size: 24px;
-		padding-left: 15px;
-		padding-right: 15px;
-		border: 1px solid #ccc;
-		margin: 0;
-	}
-	nav ul li:hover {
-		background-color: #ccc;
-	}
-
-	section a:any-link {
-		color: white;
-	}
-
-	section a:active {
-		font-style: italic;
-	}
-
-	section li {
-		color: white;
-		padding: 15px;
-	}
 }
