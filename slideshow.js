@@ -1,7 +1,8 @@
 const slideshow = {
 	slides : [
 		'1.png',
-		'2.png'
+		'2.png',
+		'3.png'
 	],
 	index : 0,
 	nextSlide : function() {
